@@ -830,6 +830,22 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+#links-ctn{
+    margin: 20px 0 10px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.links {
+    margin: 0 10px 0 10px;
+    list-style-type: none;
+}
+
+.links a{
+    font-weight: 600;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 0;
